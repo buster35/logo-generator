@@ -1,7 +1,7 @@
 const fs = require("fs")
 const inquirer = require("inquirer")
-module.exports = ;
-
+module.exports = writeToSVG;
+const generateLogo = require("./lib/shapes") //??
 
 let userData = [
   {
@@ -15,7 +15,7 @@ let userData = [
     name: "textColor"
   },
   {
-    type: "input",
+    type: "list",
     message: "Please select which shape you'd like your logo to be from the following list of shapes:",
     name: "shapeSelector",
     choices: ["Circle", "Triangle", "Square"]
@@ -27,4 +27,11 @@ let userData = [
   },
 ]
 
-inquirer.prompt(userData)
+inquirer.prompt(userData).then((response) => {
+  generateLogo(response);
+})
+
+function writeToSVG(filename, file) {
+  fs.writeFile(fileName, file, (err) =>
+    err ? console.log(err) : console.log("Success!"));
+}

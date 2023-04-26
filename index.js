@@ -1,7 +1,9 @@
-const fs = require("fs")
+//we are requiring in the necessary dependencies for this program to run, the built in fs package and the third-party inquirer package//
+const fs = require("fs") 
 const inquirer = require("inquirer")
-module.exports = writeToSVG;
+module.exports = writeToSVG; 
 const generateLogo = require("./lib/shapes") //??
+
 
 let userData = [
   {

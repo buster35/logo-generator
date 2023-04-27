@@ -35,7 +35,7 @@ let userData = [
 function init() {
   inquirer.prompt(userData).then((response) => {
     console.log(response)
-    generateLogo(response) //working
+    generateLogo(response)
   });
 }
 

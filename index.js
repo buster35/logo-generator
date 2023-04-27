@@ -33,7 +33,7 @@ let userData = [
 ];
 
 function init() {
-  inquirer.prompt(userData).then((response) => { //inquirer working//
+  inquirer.prompt(userData).then((response) => {
     console.log(response)
     generateLogo(response) //working
   });

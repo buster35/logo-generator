@@ -1,9 +1,8 @@
 //we are requiring in the necessary dependencies for this program to run, the built in fs package and the third-party inquirer package//
-
-const fs = require("fs");
 const inquirer = require("inquirer");
-const generateLogo = require("./lib/shapes")
-module.exports = writeToSVG
+const fs = require("fs");
+module.exports = writeToSVG;
+const generateLogo = require("./lib/shapes.js")
 
 let userData = [
   {
@@ -35,8 +34,8 @@ let userData = [
 
 function init() {
   inquirer.prompt(userData).then((response) => { //inquirer working//
-    console.log(response);
-    generateLogo(response);
+    console.log(response)
+    generateLogo(response) //working
   });
 }
 

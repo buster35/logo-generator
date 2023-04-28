@@ -20,7 +20,7 @@ To initiate the program in the command line type "node index.js" and the Inquire
 ## Screenshots
 [Walkthrough Video](https://drive.google.com/file/d/1W2qa3-0YYL17B-jCzy5V_vdxNIUZBq4r/view)
 
-![Node Inquirer Prompts](/images/node-inquirer-prompts)
+![Node Inquirer Prompts](/images/node-inquirer-prompts.png)
 
 ![Created Logo.SVG File](/images/created-logo-file.png)
 

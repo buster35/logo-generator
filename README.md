@@ -22,7 +22,7 @@ To initiate the program in the command line type "node index.js" and the Inquire
 
 ![Node Inquirer Prompts]("images/node-inquirer-prompts")
 
-! [Created Logo.SVG File]("images/created-logo-file.png")
+![Created Logo.SVG File]("/images/created-logo-file.png")
 
 ![Rendered Shape]("images/rendered-shape.png")
 ## Contributions

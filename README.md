@@ -1,5 +1,5 @@
 # SVG Logo Generator
-![GitHub](https://img.shields.io/github/license/buster35/buster35/logo-generator)
+![GitHub](https://img.shields.io/github/license/buster35/logo-generator)
 ## Description
 I wanted to create an SVG ("Scalable Vector Graphics") file by running a program in the command line.
 My curiosity led me to undertake this project in order to further my understanding of the functionality of command line interfaces, particularly in back-end web development.
@@ -20,11 +20,12 @@ To initiate the program in the command line type "node index.js" and the Inquire
 ## Screenshots
 [Walkthrough Video](https://drive.google.com/file/d/1W2qa3-0YYL17B-jCzy5V_vdxNIUZBq4r/view)
 
-![Node Inquirer Prompts]("images/node-inquirer-prompts")
+![Node Inquirer Prompts](/images/node-inquirer-prompts)
 
-![Created Logo.SVG File]("/images/created-logo-file.png")
+![Created Logo.SVG File](/images/created-logo-file.png)
 
-![Rendered Shape]("images/rendered-shape.png")
+![Rendered Shape](/images/rendered-shape.png)
+
 ## Contributions
 No outside collaborators were brought in for this project.
 

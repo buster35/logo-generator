@@ -18,7 +18,13 @@ To install this app the user must have Node.js as well as all dependencies. To "
 ## Usage
 To initiate the program in the command line type "node index.js" and the Inquirer prompts will begin. Once finished, the program will write a new "logo.svg" file in the root library. If the user has already created a "logo.svg" file that file will be overwritten with the new data gathered from the most current user inputs.
 ## Screenshots
+[Walkthrough Video](https://drive.google.com/file/d/1W2qa3-0YYL17B-jCzy5V_vdxNIUZBq4r/view)
 
+![Node Inquirer Prompts]("images/node-inquirer-prompts")
+
+![Created Logo.SVG File]("images\created-logo-file.png")
+
+![Rendered Shape]("images\rendered-shape.png")
 ## Contributions
 No outside collaborators were brought in for this project.
 
